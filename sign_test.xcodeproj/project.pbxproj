@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040688EB1C6A550400B2271F /* MainSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040688EA1C6A550400B2271F /* MainSign.swift */; };
+		04225BFB1C798F1E00F85AA2 /* CustomSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04225BFA1C798F1E00F85AA2 /* CustomSignView.swift */; };
+		043738631C800DFF00FE92C0 /* SignFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043738621C800DFF00FE92C0 /* SignFont.swift */; };
+		0456F0A21C76162C00D23836 /* SignScaleTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456F0A11C76162C00D23836 /* SignScaleTouch.swift */; };
 		04ED9EFC1C6A31880061F664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED9EFB1C6A31880061F664 /* AppDelegate.swift */; };
 		04ED9EFE1C6A31880061F664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED9EFD1C6A31880061F664 /* ViewController.swift */; };
 		04ED9F011C6A31880061F664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ED9EFF1C6A31880061F664 /* Main.storyboard */; };
@@ -14,6 +18,7 @@
 		04ED9F061C6A31880061F664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ED9F041C6A31880061F664 /* LaunchScreen.storyboard */; };
 		04ED9F111C6A31880061F664 /* sign_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED9F101C6A31880061F664 /* sign_testTests.swift */; };
 		04ED9F1C1C6A31880061F664 /* sign_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED9F1B1C6A31880061F664 /* sign_testUITests.swift */; };
+		04F171081C6DDCF700C88970 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F171071C6DDCF700C88970 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040688EA1C6A550400B2271F /* MainSign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSign.swift; sourceTree = "<group>"; };
+		04225BFA1C798F1E00F85AA2 /* CustomSignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSignView.swift; sourceTree = "<group>"; };
+		043738621C800DFF00FE92C0 /* SignFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignFont.swift; sourceTree = "<group>"; };
+		0456F0A11C76162C00D23836 /* SignScaleTouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignScaleTouch.swift; sourceTree = "<group>"; };
 		04ED9EF81C6A31880061F664 /* sign_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sign_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ED9EFB1C6A31880061F664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04ED9EFD1C6A31880061F664 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,7 @@
 		04ED9F171C6A31880061F664 /* sign_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sign_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ED9F1B1C6A31880061F664 /* sign_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sign_testUITests.swift; sourceTree = "<group>"; };
 		04ED9F1D1C6A31880061F664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F171071C6DDCF700C88970 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				04ED9F021C6A31880061F664 /* Assets.xcassets */,
 				04ED9F041C6A31880061F664 /* LaunchScreen.storyboard */,
 				04ED9F071C6A31880061F664 /* Info.plist */,
+				040688EA1C6A550400B2271F /* MainSign.swift */,
+				0456F0A11C76162C00D23836 /* SignScaleTouch.swift */,
+				04F171071C6DDCF700C88970 /* SettingsViewController.swift */,
+				04225BFA1C798F1E00F85AA2 /* CustomSignView.swift */,
+				043738621C800DFF00FE92C0 /* SignFont.swift */,
 			);
 			path = sign_test;
 			sourceTree = "<group>";
@@ -257,6 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04ED9EFE1C6A31880061F664 /* ViewController.swift in Sources */,
+				04F171081C6DDCF700C88970 /* SettingsViewController.swift in Sources */,
+				04225BFB1C798F1E00F85AA2 /* CustomSignView.swift in Sources */,
+				040688EB1C6A550400B2271F /* MainSign.swift in Sources */,
+				043738631C800DFF00FE92C0 /* SignFont.swift in Sources */,
+				0456F0A21C76162C00D23836 /* SignScaleTouch.swift in Sources */,
 				04ED9EFC1C6A31880061F664 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +502,7 @@
 				04ED9F221C6A31890061F664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04ED9F231C6A31890061F664 /* Build configuration list for PBXNativeTarget "sign_testTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +511,7 @@
 				04ED9F251C6A31890061F664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04ED9F261C6A31890061F664 /* Build configuration list for PBXNativeTarget "sign_testUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +520,7 @@
 				04ED9F281C6A31890061F664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
